@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+body{
+	height:100px;
+	background-image: url('images/clear.jpg');
+	background-size: cover;
+}
+#search-form{
+	display: flex;
+	justify-content:center;
+	margin-top:26px;
+	 padding:20px;
+	align-items: center;
+}
+#temp{
+	text-align: center;
+}
+#temp #temp-unit{
+	font-family: -apple-system,Robot,Oxygen;
+	font-size:1.5rem;
+
+}
+#temp #temp-value{
+	font-family: -apple-system,Robot,Oxygen;
+	font-size: 2rem;
+
+}
+ #climate{
+	font-family: -apple-system,Robot,Oxygen;
+	font-size:2.5rem;
+	text-align:center;
+}
+#location{
+	font-family: -apple-system,Robot,Oxygen;
+	font-size:2.5rem;
+	text-align:center;
+}
+#temp-icon{
+	margin: 1rem;
+	width:40%;
+	height:auto;
+}
+main{
+	padding:20px;
+	margin-top: 10px;
+	background-color:#6b778d;
+	border-radius: 20px;
+	width: 360px ;
+	height: 360px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow:10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+}
+#search-button{
+	text-transform: uppercase;
+	text-decoration:none;
+	background: white;
+	border-radius: 5px;
+	margin-left:5px;
+	padding: 11px ;
+	border: 2px solid #494949;
+	display: inline-block;
+	transition: all 0.4 ease 0s;
+	color: #494949;
+}
+#search-button:hover{
+ color: #ffffff;
+ background: #ff6768;
+ border-color: #ff6768;
+ transition: all 0.4 ease 0s;
+}
+#search-input{
+	text-transform: uppercase;
+	text-decoration:none;
+	background: white;
+	border-radius: 5px;
+	margin-left:5px;
+	padding: 11px ;
+	border: 2px solid #494949;
+	display: inline-block;
+	transition: all 0.4 ease 0s;
+	color: #494949;
+}
+#search-input:hover{
+ color: black;
+ border-color: #ff6768;
+ transition: all 0.4 ease 0s;
+}
